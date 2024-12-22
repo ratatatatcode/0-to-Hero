@@ -23,5 +23,4 @@ Ctrl + `: Toggle Integrated Terminal
 Ctrl + Shift + `: Create new terminal
 ```
 
-<b>You can run the sample outputs provided within each .md file. It might help you to understand things better.</b>
-<br>Open the HTML file you want to run in VS Code. Then, press the "Go Live" button in the bottom-right corner of VS Code.
+<b>You can run the sample outputs provided within each .md file. It might help you to understand things better.</b> Open the HTML file you want to run in VS Code. Then, press the "Go Live" button in the bottom-right corner of VS Code.
