@@ -5,49 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Text Formatting</title>
     <!-- Everything written here reflects how I understand these functions or statements. -->
-    <!-- Some explanations are from GPT, as I have no idea about that. -->
+    <!-- Some explanations are from GPT amd Google, as I have no idea about that. -->
 
     <!-- External CSS -->
-    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <!-- <link rel="stylesheet" href="/html-elements/static/global.css"> -->
 
     <!-- Add your page icon -->
     <link rel="shortcut icon" href="/html-elements/assets/html-logo.jpg" type="image/x-icon">
 
+    <!-- Add icon as a text using Google Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
     <!-- Internal CSS -->
     <style>
+        /* Import font from Google Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
         body {
-            /* To remove initial/excess marging and padding */
             margin: 0;
             padding: 0;
         }
 
         .container {
-            /* VH is a relative unit that represents a percentage of the height of a browser window.*/
-            /* height: 100vh; */
-
             min-height: 100vh;
             width: 100%;
-
-            /* Positioning and Aligning your elements, good for responsiveness */
             display: flex;
-            /* Center a div */
             flex-direction: column;
-            justify-content: center; /* Align horizontally when flex-direction == default (row) */
-            align-items: center; /* Align vertically when flex-direct == default (row) */
-            
-            /*
-                marging-block == margin for top and bottom
-                margin-inline == margin for right and left
-                margin: 0 0 0 0; == margin: top right bottom left;
-            */
+            justify-content: center;
+            align-items: center;
         }
 
-        /* 
-            With >: Targets only direct children of .container.
-            Without >: Targets all descendants of .container, no matter how deep.
-        */
         .container > h1, h2,h3,h4,h5,h6, p {
             margin: 0;
+        }
+
+        .change-font {
+            /* serif fonts have those decorative lines or tapers
+               (also commonly referred to as “tails” or “feet”) while sans serif fonts don't */
+
+            /* Did you know that 'sans' means 'without'? */
+            font-family: "Bebas Neue", serif;
         }
     </style>
 </head>
@@ -85,6 +82,11 @@
         <p>Can I sit next to You? 
             <div><b>No.</b></div>
         </p>
+
+        <br>
+        <p class="change-font">Different font with icon 
+            <span class="material-symbols-outlined">
+                account_circle</span></p>
     </div>
 </body>
 </html>
