@@ -9,6 +9,7 @@ Basically, I will start from scratch and master web development without asking G
 - [ ] DOM Manipulation
 - [ ] (Activity) Calculator Project
 - [ ] API Fetching
+- [ ] (Activity) Display Flags
 - [ ] Node JS
 - [ ] Express JS
 - [ ] (Activity) Express JS Application
