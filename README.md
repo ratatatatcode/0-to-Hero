@@ -1,6 +1,24 @@
 ## 0 to Hero
 Basically, I will start from scratch and master web development without asking GPT for code, except for syntax and its uses.
 
+- [x] HTML
+- [ ] CSS
+- [ ] Tailwind/Bootstrap
+- [ ] (Activity) Responsive Application
+- [ ] Javascript
+- [ ] DOM Manipulation
+- [ ] (Activity) Calculator Project
+- [ ] API Fetching
+- [ ] Node JS
+- [ ] Express JS
+- [ ] (Activity) Express JS Application
+- [ ] Express JS with Database (SQL/NoSQL)
+- [ ] (Activity) To-Do App
+- [ ] React
+- [ ] (Activity) Clone Social Media Platform
+- [ ] React with Database
+- [ ] (Activity) Student Portal using React
+
 For the actual learning documentation, I highly recommend <a href="https://www.w3schools.com/html/default.asp">w3schools</a>.
 
 <b>Recommended Extensions in Visual Studio Code:</b>
