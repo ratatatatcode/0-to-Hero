@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Media Tags</title>
+    <link rel="shortcut icon" href="/html-elements/assets/html-logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="/html-elements/static/global.css">
+</head>
+<body>
+    <div class="container">      
+        <!--
+            alt == alternative text for your image
+            If the image doesn’t display, the alt text will be shown instead.
+            
+            The height and width attributes are specific to certain HTML elements,
+            such as <img>, <video>, <canvas>, <iframe>
+
+            1 = 1px
+        -->
+        
+        <img src="/html-elements/assets/html-logo.jpg" alt="html-logo" width="100" height="100">
+        
+        <!-- I'm too lazy to find and download video for this part. -->
+        <!-- <video src="example.mp4" width="200" height="150"></video> -->
+
+        <!-- 'https://www.youtube.com/watch?v=tgbNymZ7vqY' replace the 'watch?v='' to 'embed' -->
+        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" width="200" height="150" frameborder="0"></iframe>
+
+        <br>
+        <!-- https://www.w3schools.com/html/html5_canvas.asp -->
+        <canvas id="canvas" width="200" height="100" style="border: 1px solid #000000;"></canvas>
+    </div>
+
+    <script>
+        var c = document.getElementById("canvas");
+        var ctx = c.getContext("2d");
+        ctx.beginPath();
+        ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+        ctx.stroke();
+    </script>
+</body>
+</html>

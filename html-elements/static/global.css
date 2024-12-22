@@ -1,0 +1,36 @@
+body {
+    /* To remove initial/excess marging and padding */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    /* VH is a relative unit that represents a percentage of the height of a browser window.*/
+    /* height: 100vh; */
+
+    min-height: 100vh;
+    width: 100%;
+
+    /* Positioning and Aligning your elements, good for responsiveness */
+    display: flex;
+    /* Center a div */
+    flex-direction: column;
+    justify-content: center; /* Align horizontally when flex-direction == default (row) */
+    align-items: center; /* Align vertically when flex-direct == default (row) */
+    
+    /*
+        marging-block == margin for top and bottom
+        margin-inline == margin for right and left
+        margin-top: / margin-bottm:
+        margin: 0 0 0 0; == margin: top right bottom left;
+        margin-right: / marging-left:
+    */
+}
+
+/* 
+    With >: Targets only direct children of .container.
+    Without >: Targets all descendants of .container, no matter how deep.
+*/
+.container > h1, h2,h3,h4,h5,h6, p {
+    margin: 0;
+}
