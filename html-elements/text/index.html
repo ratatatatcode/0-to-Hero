@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elements</title>
+    <!-- Everything written here reflects how I understand these functions or statements. -->
+    <!-- Some explanations are from GPT, as I have no idea about that. -->
+
+    <!-- External CSS -->
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+
+    <!-- Add your page icon -->
+    <link rel="shortcut icon" href="/html-elements/assets/html-logo.jpg" type="image/x-icon">
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            /* To remove initial/excess marging and padding */
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            /* VH is a relative unit that represents a percentage
+               of the height of a browser window.*/
+            /* height: 100vh; */
+
+            min-height: 100vh;
+            width: 100%;
+
+            /* Positioning and Aligning your elements, good for responsiveness */
+            display: flex;
+            /* Center a div */
+            flex-direction: column;
+            justify-content: center; /* Align horizontally when flex-direction == default (row) */
+            align-items: center; /* Align vertically when flex-direct == default (row) */
+            
+            /*
+                marging-block == margin for top and bottom
+                margin-inline == margin for right and left
+                margin: 0 0 0 0; == margin: top right bottom left;
+            */
+        }
+
+        /* 
+            With >: Targets only direct children of .container.
+            Without >: Targets all descendants of .container, no matter how deep.
+        */
+        .container > h1, h2,h3,h4,h5,h6, p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Shortcut: Simply type '.' followed by the class name you want, e.g., '.container'. -->
+    <div class="container">     
+        <!--
+            alt == alternative text for your image
+            If the image doesn’t display, the alt text will be shown instead.
+            
+            The height and width attributes are specific to certain HTML elements,
+            such as <img>, <video>, <canvas>, <iframe>
+        -->
+
+        <!-- Inline Styling -->
+        <h1 style="color: blue;">I am blue.</h1>
+        <h2>I am smaller than h1.</h2>
+        <h3>h2 is a lot bigger than I.</h3>
+        <h4>I will grow taller someday.</h4>
+        <h5>I am just a kid compared to larger headings.</h5>
+        <h6>What am I?</h6>
+
+        <!-- br == line break -->
+        <br>
+        <a href="https://www.w3schools.com/html/html_formatting.asp">HTML Text Formatting</a>
+        <p>I am a p tag. How are you?</p>
+        <b>I'm bold!?</b>
+        <strong>I'm bold and strong.</strong>
+        <i>I'm getting dizzy...</i>
+        <em>I am emp... anada.</em>
+        <small>Barely see myself.</small>
+        <p>Who's Jason? He is <mark>Mark</mark>.</p>
+        <p>My favorite color is <del>pink</del> black.</p>
+        <p>Go... <sub>lower!</sub></p>
+        <p>I'd go <sup>higher!</sup></p>
+
+        <br>
+        <!-- The <span> tag is much like the <div> element,
+             but <div> is a block-level element and <span> is an inline element. -->
+        <p>Can I sit next to you?
+            <span><b>Yes.</b></span></p>
+
+        <p>Can I sit next to You? 
+            <div><b>No.</b></div>
+        </p>
+    </div>
+</body>
+</html>
