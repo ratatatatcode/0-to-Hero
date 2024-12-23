@@ -1,6 +1,8 @@
 ## 0 to Hero
 Basically, I will start from scratch and master web development without asking GPT for code, except for syntax and its uses.
 
+**[Fireship: 100+ Web Development Things you Should Know](https://www.youtube.com/watch?v=erEgovG9WBs&t=614s)**
+
 - [ ] HTML
 - [ ] CSS
 - [ ] Tailwind/Bootstrap
