@@ -9,6 +9,8 @@ Basically, I will start from scratch and master web development without asking G
 - [ ] (Activity) Flipping Card
 - [ ] (Activity) Parallax Scrolling
 - [ ] (Activity) Responsive Application
+
+**[Fireship: 100+ JavaScript Concepts you Need to Know](https://www.youtube.com/watch?v=lkIFF4maKMU)**
 - [ ] Javascript
 - [ ] Javascript (Data Structures and Algorithms)
 - [ ] DOM Manipulation
