@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+    <link rel="shortcut icon" href="/html-elements/assets/html-logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="/html-elements/static/global.css">
+
+    <style>
+        table {
+            text-align: center;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <table border=1>
+            <!-- th == table header -->
+            <th>Unique ID</th>
+            <th>Name</th>
+            <th>Civil Status</th>
+
+            <!-- tr == table row -->
+            <tr>
+                <!-- td == table data -->
+                <td>1</td>
+                <td>James Michael</td>
+                <td>Single</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Juan Dela Cruz</td>
+                <td>Single</td>
+            </tr>
+            
+            <tr>
+                <td rowspan="2">3</td>
+                <td>Cardo Dalisay</td>
+                <td rowspan="2">Married</td>
+            </tr>
+
+            <tr>
+                <td>Jessica Dalisay</td>
+            </tr>
+
+            <tr>
+                <td colspan="3">They all lived happily ever after.</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
