@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lists</title>
+    <link rel="shortcut icon" href="/html-elements/assets/html-logo.jpg" type="image/x-icon">
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .row-container {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            /* flex-direction, as default == row */
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="row-container">
+        <!-- Shortcut for create class list below, .list-$*3 -->
+        <div class="list-1">
+            <b>Unordered Lists</b>
+            <ul>
+                <li>Chicken</li>
+                <li>Adobo</li>
+                <li>Sinigang</li>
+                <li>Sinangag</li>
+            </ul>
+        </div>
+        <div class="list-2">
+            <b>Ordered Lists</b>
+            <ol>
+                <li>Ginataan</li>
+                <li>Menudo</li>
+                <li>Kare-kare</li>
+                <li>Mang Inasal</li>
+            </ol>
+        </div>
+        <div class="list-3">
+            <b>Description Lists</b>
+            <dl>
+                <dt>Milk</dt>
+                <dd>- Very Healthy</dd>
+                <dt>Coffee</dt>
+                <dd>- Very Energetic</dd>
+            </dl>
+        </div>
+    </div>
+</body>
+</html>
