@@ -4,6 +4,8 @@ Basically, I will start from scratch and master web development without asking G
 - [ ] HTML
 - [ ] CSS
 - [ ] Tailwind/Bootstrap
+- [ ] (Activity) Flipping Card
+- [ ] (Activity) Parallax Scrolling
 - [ ] (Activity) Responsive Application
 - [ ] Javascript
 - [ ] DOM Manipulation
