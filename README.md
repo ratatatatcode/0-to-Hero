@@ -17,6 +17,7 @@ Basically, I will start from scratch and master web development without asking G
 - [ ] Express JS
 - [ ] (Activity) Express JS Application
 - [ ] Express JS with Database (SQL/NoSQL)
+- [ ] Postman
 - [ ] (Activity) To-Do App
 - [ ] React
 - [ ] (Activity) Clone Social Media Platform
