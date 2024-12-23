@@ -23,6 +23,8 @@ Basically, I will start from scratch and master web development without asking G
 - [ ] (Activity) Clone Social Media Platform
 - [ ] React with Database
 - [ ] (Activity) Student Portal using React
+- [ ] Cloud (Aws)
+- [ ] Docker
 
 For the actual learning documentation, I highly recommend <a href="https://www.w3schools.com/html/default.asp">w3schools</a>.
 
