@@ -8,6 +8,7 @@ Basically, I will start from scratch and master web development without asking G
 - [ ] (Activity) Parallax Scrolling
 - [ ] (Activity) Responsive Application
 - [ ] Javascript
+- [ ] Javascript (Data Structures and Algorithms)
 - [ ] DOM Manipulation
 - [ ] (Activity) Calculator Project
 - [ ] API Fetching
