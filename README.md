@@ -4,6 +4,7 @@ Basically, I will start from scratch and master web development without asking G
 **[Fireship: 100+ Web Development Things you Should Know](https://www.youtube.com/watch?v=erEgovG9WBs&t=614s)**
 
 - [ ] HTML
+- [ ] Understand Semantic Elements
 - [ ] CSS
 - [ ] Tailwind/Bootstrap
 - [ ] (Activity) Flipping Card
