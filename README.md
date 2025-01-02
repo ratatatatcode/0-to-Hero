@@ -2,9 +2,12 @@
 Basically, I will start from scratch and master web development without asking GPT for code, except for syntax and its uses.
 
 **[Fireship: 100+ Web Development Things you Should Know](https://www.youtube.com/watch?v=erEgovG9WBs&t=614s)**
-
+**[W3Schools: Hypertext Markup Language](https://www.w3schools.com/html/default.asp)**
+**[W3Schools: HTML Style Guide and Coding Convention](https://www.w3schools.com/Html/html5_syntax.asp)**
 - [ ] HTML
 - [ ] Understand Semantic Elements
+
+**[W3Schools: Cascading Style Sheets](https://www.w3schools.com/css/default.asp)**
 - [ ] CSS
 - [ ] Tailwind/Bootstrap
 - [ ] (Activity) Flipping Card
@@ -12,23 +15,28 @@ Basically, I will start from scratch and master web development without asking G
 - [ ] (Activity) Responsive Application
 
 **[Fireship: 100+ JavaScript Concepts you Need to Know](https://www.youtube.com/watch?v=lkIFF4maKMU)**
+**[W3Schools: Javscript](https://www.w3schools.com/js/default.asp)**
 - [ ] Javascript
 - [ ] Javascript (Data Structures and Algorithms)
 - [ ] DOM Manipulation
 - [ ] (Activity) Calculator Project
 - [ ] API Fetching
 - [ ] (Activity) Display Flags
+      
 - [ ] Node JS
 - [ ] Express JS
 - [ ] (Activity) Express JS Application
 - [ ] Express JS with Database (SQL/NoSQL)
 - [ ] Postman
 - [ ] (Activity) To-Do App
+      
 - [ ] React
-- [ ] (Activity) Clone Social Media Platform
+- [ ] (Activity) Clone Social Media Platform - No Database
 - [ ] React with Database
-- [ ] (Activity) Student Portal using React
-- [ ] Cloud (Aws)
+- [ ] (Activity) Student Portal using React - With Database
+- [ ] (Activity) E-Commerce Website + Chat System (Web Socket) + Payment Method (Paymongo)
+      
+- [ ] Cloud (AWS)
 - [ ] Docker
 
 For the actual learning documentation, I highly recommend <a href="https://www.w3schools.com/html/default.asp">w3schools</a>.
