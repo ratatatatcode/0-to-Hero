@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <link rel="shortcut icon" href="/html-elements/assets/html-logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="/html-elements/static/global.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="" style="display: flex; flex-direction: column; gap: 6px;">
+            <fieldset style="display: flex; flex-direction: column;">
+                <legend>Account</legend>
+                <!-- "for" is use to bind the label and input -->
+                <label for="name">Username</label>
+                <!-- Note: The form itself is not visible. Also note that the default width of an input field is 20 characters. -->
+                <input type="text" id="name" placeholder="Your name here">
+
+                <br>
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Password?">
+            </fieldset>
+
+            <br>
+            <!-- Select ONE -->
+            <p>Your preferred program?</p>
+            <div>
+                <input type="radio" id="CS" name="program">
+                <label for="CS">Computer Science</label>
+            </div>
+            <div>
+                <input type="radio" id="IT" name="program">
+                <label for="IT">information Technology</label>
+            </div>
+
+            <br>
+            <!-- Select ZERO or MORE -->
+            <div>
+                <input type="checkbox" value="Option 1">
+                <label for="">Option 1</label>
+            </div>
+            <div>
+                <input type="checkbox" value="Option 2">
+                <label for="">Option 2</label>
+            </div>
+            <div>
+                <input type="checkbox" value="Option 3">
+                <label for="">Option 3</label>
+            </div>
+
+            <br>
+            <!-- Form Handler (I'll leave it like this for now.) -->
+            <input type="submit">
+
+            <br>
+            <!--  -->
+            <input type="button" value="I am a Button">
+        </form>
+    </div>
+</body>
+</html>
