@@ -1,12 +1,16 @@
 ## 0 to Hero
 Basically, I will start from scratch and master web development without asking GPT for code, except for syntax and its uses.
 
+**[Fireship: 100+ Web Development Things you Should Know](https://www.youtube.com/watch?v=erEgovG9WBs&t=614s)**
+
 - [ ] HTML
 - [ ] CSS
 - [ ] Tailwind/Bootstrap
 - [ ] (Activity) Flipping Card
 - [ ] (Activity) Parallax Scrolling
 - [ ] (Activity) Responsive Application
+
+**[Fireship: 100+ JavaScript Concepts you Need to Know](https://www.youtube.com/watch?v=lkIFF4maKMU)**
 - [ ] Javascript
 - [ ] Javascript (Data Structures and Algorithms)
 - [ ] DOM Manipulation
@@ -17,11 +21,14 @@ Basically, I will start from scratch and master web development without asking G
 - [ ] Express JS
 - [ ] (Activity) Express JS Application
 - [ ] Express JS with Database (SQL/NoSQL)
+- [ ] Postman
 - [ ] (Activity) To-Do App
 - [ ] React
 - [ ] (Activity) Clone Social Media Platform
 - [ ] React with Database
 - [ ] (Activity) Student Portal using React
+- [ ] Cloud (Aws)
+- [ ] Docker
 
 For the actual learning documentation, I highly recommend <a href="https://www.w3schools.com/html/default.asp">w3schools</a>.
 
